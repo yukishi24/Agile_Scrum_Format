@@ -1,0 +1,24 @@
+name: "Epic"
+description: "大規模なエピック"
+labels: ["epic", "ProductBacklog", "priority-medium"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚨 タイトル形式: EPIC-001 | Epic概要
+        連番は手動で採番（001, 002...）。Projectsでソート推奨。
+        
+  - type: markdown
+    attributes:
+      value: |
+        ## Epic概要
+  - type: textarea
+    id: epic-summary
+    attributes:
+      label: "Epicの概要とビジネス価値"
+      placeholder: "例: 新規ユーザー登録フローを構築し、ユーザー獲得を2倍にする"
+  - type: textarea
+    id: related-stories
+    attributes:
+      label: "関連するUser Story"
+      placeholder: "後で追加: #1, #2..."

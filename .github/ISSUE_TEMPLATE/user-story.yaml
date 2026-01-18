@@ -1,0 +1,27 @@
+name: "User Story"
+description: "ユーザーストーリー"
+labels: ["user-story", "ProductBacklog", "priority-medium"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚨 タイトル形式: US-001 | As a ... I want ...
+        US = User Storyの略。ProductBacklogで連続採番。
+        
+  - type: markdown
+    attributes:
+      value: |
+        ## ユーザーストーリー
+  - type: textarea
+    id: story
+    attributes:
+      label: "As a ... I want ... so that ..."
+      placeholder: "As a 新規ユーザー, I want メール登録機能 so that すぐに利用開始できる"
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "受け入れ基準"
+      placeholder: |
+        - [ ] メール形式チェック
+        - [ ] パスワード8文字以上
+        - [ ] 重複チェック

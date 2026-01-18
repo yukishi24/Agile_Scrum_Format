@@ -1,0 +1,74 @@
+{
+  "labels": [
+    {
+      "name": "epic",
+      "color": "bf94fe",
+      "description": "大規模エピック"
+    },
+    {
+      "name": "user-story",
+      "color": "1f8fe8",
+      "description": "ユーザーストーリー"
+    },
+    {
+      "name": "task",
+      "color": "2ea44f",
+      "description": "スプリントタスク"
+    },
+    {
+      "name": "retro",
+      "color": "9f9f9f",
+      "description": "スプリント振り返り"
+    },
+    {
+      "name": "ProductBacklog",
+      "color": "ffa500",
+      "description": "プロダクトバックログ"
+    },
+    {
+      "name": "SprintBacklog",
+      "color": "ff4444",
+      "description": "スプリントバックログ"
+    },
+    {
+      "name": "priority-high",
+      "color": "d73a4a",
+      "description": "高優先度"
+    },
+    {
+      "name": "priority-medium",
+      "color": "f9d71c",
+      "description": "中優先度"
+    },
+    {
+      "name": "priority-low",
+      "color": "0379fe",
+      "description": "低優先度"
+    },
+    {
+      "name": "design",
+      "color": "00d3e0",
+      "description": "設計"
+    },
+    {
+      "name": "implement",
+      "color": "28a745",
+      "description": "実装"
+    },
+    {
+      "name": "test",
+      "color": "ffd33d",
+      "description": "テスト"
+    },
+    {
+      "name": "refinement",
+      "color": "ff69b4",
+      "description": "Product Backlog Refinement"
+    },
+    {
+      "name": "document",
+      "color": "6a737d",
+      "description": "ドキュメント"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+name: "Sprint Retrospective"
+description: "スプリント振り返り"
+labels: ["retro", "SprintBacklog"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚨 タイトル形式: RETRO-001 | Sprint X 振り返り
+        スプリント毎に作成。
+        
+  - type: markdown
+    attributes:
+      value: |
+        ## Sprint Retrospective (Sprint X)
+  - type: textarea
+    id: what-went-well
+    attributes:
+      label: "うまくいったこと"
+      placeholder: "タスク分割が明確で進捗が見やすかった"
+  - type: textarea
+    id: improve
+    attributes:
+      label: "改善点"
+      placeholder: "テストケースが不足していた"
+  - type: textarea
+    id: action-items
+    attributes:
+      label: "アクションアイテム"
+      placeholder: "次スプリントからテストファースト実施"

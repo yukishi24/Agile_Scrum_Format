@@ -1,0 +1,34 @@
+name: "Task"
+description: "スプリントタスク"
+labels: ["task", "SprintBacklog", "priority-medium"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚨 タイトル形式: TASK-001 | タスク名
+        スプリント毎に001からリセット推奨。
+        
+  - type: markdown
+    attributes:
+      value: |
+        ## Task詳細
+  - type: textarea
+    id: description
+    attributes:
+      label: "タスク説明"
+      placeholder: "ユーザー登録APIの実装"
+  - type: textarea
+    id: checklist
+    attributes:
+      label: "作業チェックリスト"
+      placeholder: |
+        - [ ] design（設計）
+        - [ ] implement（実装） 
+        - [ ] test（テスト）
+        - [ ] refinement（リファイン）
+        - [ ] document（ドキュメント）
+  - type: dropdown
+    id: phase
+    attributes:
+      label: "主な作業フェーズ"
+      options: ["design", "implement", "test", "refinement", "document"]
